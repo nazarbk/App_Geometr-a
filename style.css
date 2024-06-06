@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+canvas {
+    border: 1px solid black;
+    border-radius: 5px;
+    border-left: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+.button-container {
+    margin-top: 20px;
+}
+
+button {
+    margin: 0 10px;
+    font-size: 25px;
+}
+
+#coordenada{
+    font-size: 25px;
+}

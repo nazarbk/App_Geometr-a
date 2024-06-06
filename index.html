@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geometria App</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+    <script src="sketch.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="canvas-container"></div>
+    <div class="button-container">
+        <!--<button id="btn1">Añadir</button>-->
+        <button id="btn2" onclick="closeFigure()">Cerrar</button>
+        <button id="btn4">Rotar</button>
+        <button id="btn4">Reflejar</button>
+        <button id="btn4">Limpiar</button>
+    </div>
+    <div class="button-container">
+        <button id="btn2" onclick="traslation()">Trasladar</button>
+        <input type="text" id="coordenada" placeholder="Vector (x,y)">
+    </div>
+</body>
+</html>
